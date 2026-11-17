@@ -77,7 +77,7 @@ flowchart LR
 
 ## Como Executar no Terminal
 
-1. Abra o terminal na pasta do projeto (`C:\Users\Gusta\Documents\trabalhosGS2\solucoes_energia`).
+1. Abra o terminal na pasta do projeto 
 2. Para iniciar o **menu interativo** (opções `0` a `6`) ou a **demonstração imediata**:
    ```bash
    python main.py
