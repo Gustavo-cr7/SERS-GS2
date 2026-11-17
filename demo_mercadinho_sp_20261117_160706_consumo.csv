@@ -1,0 +1,5 @@
+﻿equipamento;quantidade;potencia_W;horas_dia;dias_mes;kWh_mes;custo_R$_mes;fonte
+Lâmpada fluorescente tubular 40 W (com reator);12;48;12;26;179.71;184.42;INMETRO - PBE Lâmpadas LED (ESTIMADO)
+Freezer / expositor refrigerado (compressor ~16h/dia);3;320;16;30;460.8;472.87;INMETRO - PBE Refrigeradores Comerciais (ESTIMADO)
+Ar-condicionado split 12.000 BTU;1;1100;8;26;228.8;234.79;INMETRO - PBE Condicionadores de Ar (ESTIMADO)
+Computador do caixa (PDV) + impressora;1;150;12;26;46.8;48.03;Etiqueta típica de fabricantes (ESTIMADO)

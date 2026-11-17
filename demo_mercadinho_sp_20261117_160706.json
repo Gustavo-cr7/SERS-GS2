@@ -1,0 +1,201 @@
+{
+  "gerado_em": "2026-11-17T16:07:06",
+  "perfil": "Mercadinho / mercearia de bairro (SP)",
+  "distribuidora": {
+    "sigla": "ELETROPAULO",
+    "uf": "SP",
+    "distribuidora": "Enel São Paulo (ex-Eletropaulo)",
+    "resolucao": "RESOLUÇÃO HOMOLOGATÓRIA Nº 3.596, DE 3 DE JULHO DE 2026",
+    "inicio_vigencia": "2026-07-04",
+    "fim_vigencia": "2027-07-03",
+    "tusd_r_mwh": 472.42,
+    "te_r_mwh": 316.96,
+    "tarifa_r_kwh_sem_impostos": 0.78938,
+    "data_consulta": "2026-11-17"
+  },
+  "premissas": {
+    "fator_tributos": 1.3,
+    "custo_disponibilidade_kwh": {
+      "monofasico": 30,
+      "bifasico": 50,
+      "trifasico": 100
+    },
+    "performance_ratio": 0.78,
+    "potencia_modulo_kw": 0.55,
+    "custo_kwp_reais": 4000.0,
+    "area_m2_por_kwp": 5.5,
+    "perda_fio_b": 0.17,
+    "desconto_assinatura": 0.15,
+    "fator_co2_kg_kwh": 0.0545
+  },
+  "simulacao": {
+    "tarifa_sem_impostos": 0.78938,
+    "tarifa_final": 1.026194,
+    "ligacao": "trifasico",
+    "base": {
+      "kwh_mes": 916.112,
+      "kwh_ano": 10993.344,
+      "custo_mes": 940.108637728,
+      "custo_ano": 11281.303652736,
+      "co2_kg_ano": 599.137248,
+      "maiores_consumidores": [
+        {
+          "id": "freezer",
+          "nome": "Freezer / expositor refrigerado (compressor ~16h/dia)",
+          "quantidade": 3,
+          "horas_dia": 16,
+          "dias_mes": 30,
+          "potencia_w": 320,
+          "kwh_mes": 460.8,
+          "fonte": "INMETRO - PBE Refrigeradores Comerciais (ESTIMADO)",
+          "custo_mes": 472.8701952,
+          "participacao_pct": 50.29952669542589
+        },
+        {
+          "id": "ar_condicionado",
+          "nome": "Ar-condicionado split 12.000 BTU",
+          "quantidade": 1,
+          "horas_dia": 8,
+          "dias_mes": 26,
+          "potencia_w": 1100,
+          "kwh_mes": 228.8,
+          "fonte": "INMETRO - PBE Condicionadores de Ar (ESTIMADO)",
+          "custo_mes": 234.79318720000003,
+          "participacao_pct": 24.975112213353828
+        },
+        {
+          "id": "lampada",
+          "nome": "Lâmpada fluorescente tubular 40 W (com reator)",
+          "quantidade": 12,
+          "horas_dia": 12,
+          "dias_mes": 26,
+          "potencia_w": 48,
+          "kwh_mes": 179.712,
+          "fonte": "INMETRO - PBE Lâmpadas LED (ESTIMADO)",
+          "custo_mes": 184.419376128,
+          "participacao_pct": 19.616815411216095
+        }
+      ]
+    },
+    "led": {
+      "nome": "1. Troca das lâmpadas por LED",
+      "renovavel": false,
+      "qtd_lampadas": 12,
+      "economia_kwh_mes": 112.32,
+      "economia_r_mes": 115.26211008,
+      "economia_r_ano": 1383.14532096,
+      "economia_pct": 12.26050963201006,
+      "investimento": 420.0,
+      "payback_meses": 3.643868741501353,
+      "co2_evitado_kg_ano": 73.45728,
+      "conta_nova_mes": 824.846527648
+    },
+    "solar": {
+      "nome": "2. Painéis solares no telhado [RENOVÁVEL]",
+      "renovavel": true,
+      "irradiacao_sp": 5.06,
+      "minimo_faturavel_kwh": 100,
+      "kwp": 7.15,
+      "modulos": 13,
+      "area_m2": 39.325,
+      "geracao_kwh_mes": 846.5886,
+      "economia_kwh_mes": 816.112,
+      "economia_r_mes": 695.11606731424,
+      "economia_r_ano": 8341.39280777088,
+      "economia_pct": 73.93997240512078,
+      "investimento": 28600.0,
+      "payback_meses": 41.14420791696482,
+      "co2_evitado_kg_ano": 533.7372479999999,
+      "conta_nova_mes": 244.99257041375995
+    },
+    "assinatura": {
+      "nome": "3. Energia solar por assinatura [RENOVÁVEL]",
+      "renovavel": true,
+      "desconto_pct": 15.0,
+      "economia_kwh_mes": 816.112,
+      "economia_r_mes": 125.6233856592,
+      "economia_r_ano": 1507.4806279104,
+      "economia_pct": 13.362645615383272,
+      "investimento": 0.0,
+      "payback_meses": 0.0,
+      "co2_evitado_kg_ano": 533.7372479999999,
+      "conta_nova_mes": 814.4852520687999
+    }
+  },
+  "itens": [
+    {
+      "id": "lampada",
+      "nome": "Lâmpada fluorescente tubular 40 W (com reator)",
+      "quantidade": 12,
+      "horas_dia": 12,
+      "dias_mes": 26,
+      "potencia_w": 48,
+      "kwh_mes": 179.712,
+      "fonte": "INMETRO - PBE Lâmpadas LED (ESTIMADO)",
+      "custo_mes": 184.419376128,
+      "participacao_pct": 19.616815411216095
+    },
+    {
+      "id": "freezer",
+      "nome": "Freezer / expositor refrigerado (compressor ~16h/dia)",
+      "quantidade": 3,
+      "horas_dia": 16,
+      "dias_mes": 30,
+      "potencia_w": 320,
+      "kwh_mes": 460.8,
+      "fonte": "INMETRO - PBE Refrigeradores Comerciais (ESTIMADO)",
+      "custo_mes": 472.8701952,
+      "participacao_pct": 50.29952669542589
+    },
+    {
+      "id": "ar_condicionado",
+      "nome": "Ar-condicionado split 12.000 BTU",
+      "quantidade": 1,
+      "horas_dia": 8,
+      "dias_mes": 26,
+      "potencia_w": 1100,
+      "kwh_mes": 228.8,
+      "fonte": "INMETRO - PBE Condicionadores de Ar (ESTIMADO)",
+      "custo_mes": 234.79318720000003,
+      "participacao_pct": 24.975112213353828
+    },
+    {
+      "id": "computador_pdv",
+      "nome": "Computador do caixa (PDV) + impressora",
+      "quantidade": 1,
+      "horas_dia": 12,
+      "dias_mes": 26,
+      "potencia_w": 150,
+      "kwh_mes": 46.8,
+      "fonte": "Etiqueta típica de fabricantes (ESTIMADO)",
+      "custo_mes": 48.0258792,
+      "participacao_pct": 5.108545680004192
+    }
+  ],
+  "fontes": [
+    [
+      "ANEEL - Dados Abertos: Tarifas de Aplicação das Distribuidoras (SP - B3)",
+      "https://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica"
+    ],
+    [
+      "ANEEL - Resolução Normativa nº 1.000/2021 (custo de disponibilidade)",
+      "https://www2.aneel.gov.br/cedoc/ren20211000.html"
+    ],
+    [
+      "Lei nº 14.300/2022 - Marco Legal da Micro e Minigeração Distribuída",
+      "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14300.htm"
+    ],
+    [
+      "INPE/LABREN - Atlas Brasileiro de Energia Solar, 2ª ed. (2017)",
+      "https://labren.ccst.inpe.br/atlas_2017.html"
+    ],
+    [
+      "INMETRO / PROCEL - Tabelas de Eficiência Energética (PBE)",
+      "https://www.gov.br/inmetro/pt-br/assuntos/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem/tabelas-de-eficiencia-energetica"
+    ],
+    [
+      "MCTI - Fatores de emissão de CO2 do Sistema Interligado Nacional",
+      "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/sirene/dados-e-ferramentas/fatores-de-emissao"
+    ]
+  ]
+}
